@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:id="@+id/nav_home"
+    android:title="Home"
+    android:icon="@drawable/baseline_home"
+    android:iconTint="#73509F"
+    />
+    <item android:id="@+id/nav_msg"
+        android:title="Message"
+        android:icon="@drawable/baseline_message_24"
+        android:iconTint="#73509F"
+        />
+    <item android:id="@+id/nav_delete"
+        android:title="Delete"
+        android:icon="@drawable/baseline_delete_24"
+        android:iconTint="#73509F"
+        />
+    <item android:id="@+id/nav_share"
+        android:title="Share"
+        android:icon="@drawable/baseline_share_24"
+        android:iconTint="#73509F"
+        />
+    <item android:title="Profile">
+        <menu>
+            <item android:id="@+id/nav_login"
+                android:title="Login"
+                android:icon="@drawable/baseline_login_24"
+                android:iconTint="#73509F"
+                />
+        </menu>
+
+    </item>
+    <item android:title="Communicate">
+        <menu>
+            <item android:id="@+id/nav_contact"
+                android:title="Contact"
+                android:icon="@drawable/baseline_contact_phone_24"
+                android:iconTint="#73509F"
+                />
+            <item android:id="@+id/nav_rateus"
+                android:title="Rate Us"
+                android:icon="@drawable/baseline_star_rate_24"
+                android:iconTint="#73509F"
+                />
+        </menu>
+
+    </item>
+</menu>
